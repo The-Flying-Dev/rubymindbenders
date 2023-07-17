@@ -16,7 +16,7 @@ It's generally a good idea to make sure that you run `bundle install` so that yo
 Please feel free to add your own problems! As you do, please follow the general structure above and use the instructions below:
 
 1. Fork it
-2. Create your problem branch (`git checkout -b my-new-proble`)
+2. Create your problem branch (`git checkout -b my-new-problem`)
 3. Commit your changes (`git commit -am "Adding super tricky problem"`)
 5. Create your problem's answer branch (`git checkout -b my-new-problems-answer`)
 6. Commit your changes (`git commit -am "Adding super tricky problem's answer"`)
