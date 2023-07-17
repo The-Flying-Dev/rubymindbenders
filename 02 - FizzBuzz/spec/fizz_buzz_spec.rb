@@ -10,7 +10,7 @@ describe FizzBuzz do
   end
 
   it 'prints all numbers from low to high' do
-    expect(@output).to match /^1.*\n^2.*\n3.*\n4.*\n5.*\n6.*\n7.*\n/
+    expect(@output).to match (/^1.*\n^2.*\n3.*\n4.*\n5.*\n6.*\n7.*\n/)
   end
 
   it 'prints the word fizzy if the number printed is divisible by any element of the divisor array' do
@@ -23,3 +23,5 @@ describe FizzBuzz do
     expect(@output).to_not include '1 reallyfizzy', '2 reallyfizzy', '3 reallyfizzy', '4 reallyfizzy', '5 reallyfizzy', '7 reallyfizzy'
   end
 end
+
+
